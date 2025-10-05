@@ -70,4 +70,4 @@ Contribuições são muito bem vindas! Fiquem a vontade para enviar pull request
 
 # Licença:
 
-Licença de código aberto (ex: MIT, Apache 2.0). Crie um arquivo LICENSE no diretório raiz.
+Licença de código aberto MIT.
