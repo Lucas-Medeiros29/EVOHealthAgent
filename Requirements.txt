@@ -1,1 +1,6 @@
+numpy
+scikit-learn
+shap
+matplotlib
+pandas # Útil para manipulação de dados, mesmo que não explícito em todos os snippets.
 
