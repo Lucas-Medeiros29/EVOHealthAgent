@@ -8,11 +8,15 @@ Singularidade: Combinação de Algoritmo Genético(GA), ML interpretável (SHAP)
 
 # Funcionalidades Chave:
 
-Simulações Evolutivas Adaptativas: Implementa algoritmos genéticos (mutação, crossover, seleção) para simular a evolução de patógenos.
-Interpretabilidade de ML com SHAP: Utiliza modelos de Machine Learning (Árvores de Decisão) e SHAP para identificar k-mers (características genéticas) mais relevantes na predição de resistência, tornando o modelo transparente.
-Agente Autônomo com LLM (Simulado): Um loop de feedback impulsionado por um LLM simula a tomada de decisões, ajustando hiperparâmetros de simulação e ML, e refinando queries de pesquisa com base nos resultados das iterações.
-Integração com Bases de Conhecimento (CARD simulada): Simula a consulta à base de dados CARD (Comprehensive Antibiotic Resistance Database) para associar k-mers relevantes a mecanismos de resistência conhecidos.
-Geração de Relatórios Interativos: Gera relatórios JSON e HTML detalhados por iteração, incluindo visualizações SHAP e um resumo da análise do LLM.
+1. Simulações Evolutivas Adaptativas: Implementa algoritmos genéticos (mutação, crossover, seleção) para simular a evolução de patógenos.
+
+2. Interpretabilidade de ML com SHAP: Utiliza modelos de Machine Learning (Árvores de Decisão) e SHAP para identificar k-mers (características genéticas) mais relevantes na predição de resistência, tornando o modelo transparente.
+
+3. Agente Autônomo com LLM (Simulado): Um loop de feedback impulsionado por um LLM simula a tomada de decisões, ajustando hiperparâmetros de simulação e ML, e refinando queries de pesquisa com base nos resultados das iterações.
+
+4. Integração com Bases de Conhecimento (CARD simulada): Simula a consulta à base de dados CARD (Comprehensive Antibiotic Resistance Database) para associar k-mers relevantes a mecanismos de resistência conhecidos.
+
+5. Geração de Relatórios Interativos: Gera relatórios JSON e HTML detalhados por iteração, incluindo visualizações SHAP e um resumo da análise do LLM.
 
 # Como Funciona (Visão Geral)
 
@@ -57,12 +61,17 @@ Segue uma imagem do gráfico SHAP mais recente e da acurácia ao longo das itera
 
 # Próximos Passos e Melhorias Futuras:
 
-Integração Real com PubMed/NCBI: Conectar a busca por artigos científicos a APIs reais.
-Expansão da Base CARD: Integrar dados mais complexos e reais da CARD ou outras bases.
-Modelos de ML Mais Avançados: Experimentar com Random Forests, Gradient Boosting, LSTMs para sequências.
-Otimização do LLM: Refinar os prompts e a lógica de feedback para respostas mais sofisticadas e adaptativas.
-Interface Gráfica (GUI): Desenvolver uma interface para visualização interativa das simulações.
-Geração de Sequências Mais Realistas: Usar modelos generativos (ex: GANs, VAEs) para criar sequências mais próximas da realidade biológica.
+1. Integração Real com PubMed/NCBI: Conectar a busca por artigos científicos a APIs reais.
+
+2. Expansão da Base CARD: Integrar dados mais complexos e reais da CARD ou outras bases.
+   
+3. Modelos de ML Mais Avançados: Experimentar com Random Forests, Gradient Boosting, LSTMs para sequências.
+
+4. Otimização do LLM: Refinar os prompts e a lógica de feedback para respostas mais sofisticadas e adaptativas.
+   
+5. Interface Gráfica (GUI): Desenvolver uma interface para visualização interativa das simulações.
+
+6. Geração de Sequências Mais Realistas: Usar modelos generativos (ex: GANs, VAEs) para criar sequências mais próximas da realidade biológica.
 
 # Contribuições:
 
