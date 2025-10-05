@@ -16,12 +16,12 @@ Geração de Relatórios Interativos: Gera relatórios JSON e HTML detalhados po
 
 # Como Funciona (Visão Geral)
 
-Explique o ciclo iterativo: Geração de sequências -> Treinamento ML -> Análise SHAP -> Consulta CARD -> Feedback LLM -> Nova iteração.
+O projeto segue o seguinte ciclo iterativo: Geração de sequências -> Treinamento ML -> Análise SHAP -> Consulta CARD -> Feedback LLM -> Nova iteração.
 
-Instalação e Configuração
+# Instalação e Configuração
 
 Pré-requisitos: Python 3.8+
-Clonar o repositório:git clone https://github.com/SeuUsuario/EvoHealthAgent.git
+Clonar o repositório:git clone https://github.com/Lucas-medeiros29/EvoHealthAgent.git
 cd EvoHealthAgent
 
 Criar ambiente virtual (recomendado):python -m venv venv
@@ -30,17 +30,16 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 Instalar dependências:pip install -r requirements.txt
 
 Configuração da Chave da API do NCBI (Opcional):
-Mencione que para simulação PubMed real, uma chave seria necessária, mas para a demonstração atual, a busca é simulada.
+Para simulação PubMed real, uma chave no NCBI é necessária, mas para a demonstração atual, a busca é simulada.
 
 
-
-Como Usar
+# Como Usar:
 
 Executar o agente:python src/evohealth_agent.py
 
-Explique que ele solicitará a chave NCBI e então iniciará as iterações.
+Será solicitada a chave NCBI e então iniciará as iterações. Caso não tenha, apenas deixe em branco.
 
-Resultados e Visualizações
+# Resultados e Visualizações:
 
 Descreva os arquivos gerados: evohealth_report_iter_X.html, evohealth_overall_report.html, accuracy_over_iterations.png.
 Mencione que os relatórios HTML contêm os gráficos SHAP e os sumários das análises do LLM para cada iteração.
